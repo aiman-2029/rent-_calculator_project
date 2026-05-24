@@ -1,0 +1,14 @@
+# rent calculator:
+
+print("----------WELCOME TO RENT CALCULATOR----------") 
+rent=int(input("what's the rent of your room ?"))
+quantity=int(input("how many person live in the room ?"))
+e_bill=int(input("what's the electricity bill for this month ?"))
+f_bill=int(input("enter the amount of food bill ?"))
+
+amt = (rent + e_bill + f_bill)
+total_amt = amt/quantity
+
+print("every person should contribute:",total_amt)
+print("thank you!\n"
+"have a nice day")
